@@ -1,0 +1,30 @@
+.search-from__heading,
+.search-from {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-from__text {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: -20px;
+}
+
+.search-form__item {
+    font-size: 16px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.search-form__button {
+    color: white;
+    background-color: black;
+    width: 80px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form__button-out {
+    padding-left: 10px;
+}
