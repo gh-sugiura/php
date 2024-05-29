@@ -14,7 +14,9 @@
 ## 環境構築
 Dockerビルド
 1. git clone
-2. docker-compose up -d -build
+2. docker-compose up -d --build
+3. リモートリポジトリ作成
+4. リモートリポジトリとローカルリポジトリの紐付け
 
 Larabel環境構築
 1. docker-compose exec php bash
@@ -22,13 +24,17 @@ Larabel環境構築
 3. .env.exampleファイルから.envファイルを作成し、環境変数を設定
 4. php artisan key:generate
 5. php artisan migrate
-6. php artisan db:seed
+6. php artisan db:seed  
+
+&ensp;※sudu chmod -R 777 src/*
 
 ## 使用技術
 * laravel 8.83.8
 * PHP 7.4.9
 * MySQL 8.0.26
 * nginx 1.21.1
+* phpMyadmin
+* draw.io
 
 ## ER図
 ![ER図]()
