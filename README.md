@@ -34,7 +34,7 @@ Larabel環境構築
 * MySQL 8.0.26
 * nginx 1.21.1
 * phpMyadmin
-* draw.io
+* diagrams.net
 
 ## ER図
 ![ER図]()
