@@ -37,10 +37,6 @@ Larabel環境構築
 * diagrams.net
 
 ## ER図
-![ER図][def]
+![ER図](er.drawio.png)
 
 ## URL
-
-
-
-[def]: er.drawio.png
