@@ -13,20 +13,25 @@
 
 ## 環境構築
 Dockerビルド
-1. git clone
-2. docker-compose up -d --build
-3. リモートリポジトリ作成
-4. リモートリポジトリとローカルリポジトリの紐付け
+1. `git clone git@github.com:coachtech-material/laravel-docker-template.git`
+2. リモートリポジトリ作成
+3. リモートリポジトリとローカルリポジトリの紐付け
+4. `docker-compose up -d --build`
 
 Larabel環境構築
-1. docker-compose exec php bash
-2. composer install
+1. `docker-compose exec php bash`
+2. `composer install`
 3. .env.exampleファイルから.envファイルを作成し、環境変数を設定
-4. php artisan key:generate
-5. php artisan migrate
-6. php artisan db:seed  
+4. `php artisan key:generate`：
+5. `php artisan migrate`：マイグレーションの実行
+6. `php artisan db:seed`：シーディングの実行 
+7. `php artisan make:controller ~コントローラ名~`：コントローラ作成
+8. `php artisan make:migration ~マイグレーションファイル名~`：マイグレーションファイル作成
+9. `php artisan make:model ~モデル名~`：モデル作成
+10. `php artisan make:request ~リクエストファイル名~`：リクエストファイル作成
+11. `php artisan make:seeder ~シーダーファイル名~`：シーダーファイル作成
 
-&ensp;※sudu chmod -R 777 src/*
+&ensp;※`sudu chmod -R 777 src/*`：ファイルアクセス権限を付与
 
 ## 使用技術
 * laravel 8.83.8
